@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./external/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <h1>CRUD</h1>
+        <div class="img">
+            <img src="./download.png" alt="">
+        </div>
+    </nav>
+    <section class="all">
+        <section class="section1">
+            <form action="index.html" id="form_da">
+                <div class="input">
+                    <label for="product_name">product Name</label>
+                    <input type="text" id="product_name" >
+                </div>
+                <div class="input">
+                    <label for="product_price">product price</label>
+                    <input type="number" id="product_price">
+                </div>
+                <div class="input">
+                    <label for="product_category">product category</label>
+                <input type="text" id="product_category" >
+                </div>
+                <div class="input">
+                    <label for="product_code">product code</label>
+                    <input type="text" id="product_code" >
+                </div>
+                <div class="input">
+                    <label for="product_Descs">product Descs</label>
+                    <input type="text" id="product_Descs" >
+                </div>
+                <input id="send" type="submit" value="Add">
+                <!-- <button id="send">Add</button> -->
+            </form>
+        </section>
+        <section class="section2">
+            <table id="table_data">
+                <tr>
+                    <th class="head">product Name</th>
+                    <th class="head">product price</th>
+                    <th class="head">product category</th>
+                    <th class="head">product code</th>
+                    <th class="head">product Descs</th>
+                    <th class="head">options</th>
+                </tr>
+            </table>
+        </section>
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>
